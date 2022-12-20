@@ -1,0 +1,107 @@
+@import "./variables.css";
+@import url('https://fonts.googleapis.com/css2?family=Jacques+Francois&family=Montserrat&family=Roboto&display=swap');
+
+* {
+    padding : 0;
+    margin : 0;
+    box-sizing : border-box;
+}
+
+a {
+    text-decoration : none;
+    color : inherit;
+}
+
+li {
+    list-style-type : none ;
+}
+    
+.container{
+    height: 100vh;
+    background: var(--secondari-bg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    background: var(--primary-bg);
+    width: 375px;
+    height: 832px; 
+}
+
+.title-wrapper{
+    display: flex;
+    flex-direction: column;
+    margin-top: 82px;
+    margin-left: 24px;
+}
+
+.title-1{
+    color: var(--secondary-text);
+    font-size: var(--fs-l);
+    font-family: var(--third-font-family);
+}
+
+.title-2{
+    color: var(--fifht-text);
+    font-size: var(--fs-ll);
+}
+
+.input-wrapper{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+   
+}
+
+.input{
+    width: 319px;
+    height: 45px;
+    background: var(--primary-button-bg);
+    border-radius: 5%;
+    border: none;
+    color: var(--input-text);
+    font-size: var(--fs-m);
+    font-family: var(--third-font-family);
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+}
+
+.button-wrapper{
+   
+    width: 57px;
+    height: 57px;
+    background: var(--primary-button-bg);
+    border-radius: 50%;
+    margin-top: 29px;
+    margin-left: 24px;
+   
+}
+
+.img-wrapper{
+    display: flex;
+    justify-content: center;
+   
+}
+
+.img{
+    width:25px ;
+    height: 30px;
+
+}
+
+.title__menu{
+    display: flex;
+    justify-content: center;
+    color: var(--primari-text);
+    font-size: var(--fs-xxxs);
+}
+

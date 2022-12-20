@@ -23,6 +23,8 @@
     --secondary-text:#ABA6AE;
     --third-text:#9F95A4;
     --fourth-text:#DCD1D1;
+    --fifht-text: #E9E5E5;
+    --input-text:#C3BAC8;
 
     /* *Font-Family */
 
@@ -33,11 +35,14 @@
     /* *Font-size */
 
     --fs-xl: 38px;
+    --fs-ll: 32px;
     --fs-l: 24px;
     --fs-m: 20px;
     --fs-s: 16px;
     --fs-xs: 14px;
     --fs-xxs: 11px;
+    --fs-xxxs: 9px;
+
 
     /* *Margins */
  

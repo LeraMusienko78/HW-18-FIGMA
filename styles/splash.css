@@ -1,0 +1,113 @@
+@import "./variables.css";
+@import url('https://fonts.googleapis.com/css2?family=Jacques+Francois&family=Montserrat&family=Roboto&display=swap');
+
+* {
+    padding : 0;
+    margin : 0;
+    box-sizing : border-box;
+}
+
+a {
+    text-decoration : none;
+    color : inherit;
+}
+
+li {
+    list-style-type : none ;
+}
+
+.container{
+    height: 100vh;
+    background: var(--secondari-bg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.splash{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: var(--primary-bg);
+    width: 375px;
+    height: 832px;
+}
+
+.img-wrapper{
+    margin-top: 103px;
+    margin-left: 47px;
+    margin-right: 46px;
+    height: 355px;
+}
+
+.img__splash{
+    width: 282px;
+    height: 355px;
+}
+
+.button1{
+background: var(--primary-bg);
+border: none;
+}
+
+.vector-wrapper{
+    margin-top: 38px;
+}
+
+.vector{
+    margin-right: 9px;
+}
+
+.vector:hover{
+    background: var(--primary-range-bg);
+}
+
+.title-wrapper{
+    margin-top: 21px;
+    margin-left: 68px;
+}
+
+.title{
+    color:var(--primari-text) ;
+    font-family: var(--primary-font-family);
+    font-size: var( --fs-xl);
+}
+
+.text-wrapper{
+    margin-top: 10px;
+    margin-left: 64px;
+    margin-right: 63px;
+}
+
+.text{
+    color: var(--secondary-text);
+    font-family: var(--third-font-family);
+    font-size: var( --fs-s);
+    display: flex;
+    justify-content: center;
+}
+
+.button-wrapper{
+    margin-top: 21px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button{
+    background: var(--primary-button-bg);
+    border: none;
+    width: 68px;
+    height: 68px;
+    border-radius: 50%;
+}
+
+.button:hover{
+    background: var(--secondari-button-bg);
+}
+
+
+
+
