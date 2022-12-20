@@ -1,13 +1,21 @@
 :root {
-    --primary-color : ;
 
-    --primary-bg : ;
+   /* *Background */
 
-    --font-family-size : ;
+   --primary-bg :#121013 ;
+   --secondari-bg:#E5E5E5 ;
+   --additional-bg: ;
+   --spare-bg: ;
 
-    --font-size-size : ;
+   /* *Background-button */
 
-    --margin-size : ;
-    --padding-size : ;
+   --primary-button-bg :#232222 ;
+   --secondari-button-bg:#4B494C ;
+   --third-button-bg: #646165;
+   --fourth-button:#D9D9D9 ;
+   --range-bg: #FF5C00;
+
+
+
 }
     
