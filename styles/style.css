@@ -1,3 +1,7 @@
+@import "./variables.css";
+@import url('https://fonts.googleapis.com/css2?family=Jacques+Francois&family=Montserrat&family=Roboto&display=swap');
+
+
 * {
     padding : 0;
     margin : 0;
@@ -11,5 +15,29 @@ a {
 
 li {
     list-style-type : none ;
+}
+
+#app{
+    height: 100vh;
+    background: #232323;
+}
+
+.icons{
+    background: #232323;
+    /* border-radius: 59%; */
+    color: blue;
+}
+
+.text{
+    color: aliceblue;
+    font-family: var(--primary-ff);
+}
+.text1{
+    color: aliceblue;
+    font-family: var(--secondary-ff);
+}
+.text2{
+    color: white;
+    font-family: var( --third-ff);
 }
     

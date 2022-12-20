@@ -13,9 +13,35 @@
    --secondari-button-bg:#4B494C ;
    --third-button-bg: #646165;
    --fourth-button:#D9D9D9 ;
-   --range-bg: #FF5C00;
+   --primary-range-bg: #FF5C00;
+   --secodary-range-bg:#FF0202;
+
+
+    /* *Color-text */
+
+    --primari-text : #FFFFFF;
+    --secondary-text:#ABA6AE;
+    --third-text:#9F95A4;
+    --fourth-text:#DCD1D1;
+
+    /* *Font-Family */
+
+    --primary-ff: jacques;
+    --secondary-ff:roboto;
+    --third-ff:montserat;
+
+    /* *Font-size */
+
+    --fs-xl: 40px;
+    --fs-l: 24px;
+    --fs-m: 20px;
+    --fs-s: 16px;
+    --fs-xs: 14px;
+    --fs-xxs: 11px;
 
 
 
 }
+
+  
     
