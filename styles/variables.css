@@ -4,7 +4,7 @@
 
    --primary-bg :#121013 ;
    --secondari-bg:#E5E5E5 ;
-   --additional-bg: ;
+   --additional-bg: gray;
    --spare-bg: ;
 
    /* *Background-button */
@@ -26,9 +26,9 @@
 
     /* *Font-Family */
 
-    --primary-ff: jacques;
-    --secondary-ff:roboto;
-    --third-ff:montserat;
+    --primary-font-family: 'Jacques Francois', serif;
+    --secondary-font-family: 'Montserrat', sans-serif;
+    --third-font-family: 'Roboto', sans-serif;
 
     /* *Font-size */
 
@@ -38,6 +38,21 @@
     --fs-s: 16px;
     --fs-xs: 14px;
     --fs-xxs: 11px;
+
+    /* *Margins */
+ 
+    --margin-size-xl : 7rem;
+    --margin-size-l : 2rem ;
+    --margin-size-m : 1rem ;
+    --margin-size-s : .8rem ;
+    
+    
+    /* *Paddings */
+    
+    --padding-size-xl : 3rem;
+    --padding-size-l : 2rem ;
+    --padding-size-m : 1rem ;
+    --padding-size-s : .8rem ;
 
 
 

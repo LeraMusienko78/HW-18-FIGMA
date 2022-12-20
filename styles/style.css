@@ -18,26 +18,143 @@ li {
 }
 
 #app{
-    height: 100vh;
-    background: #232323;
+    /* height: 100vh; */
+    display: flex;
+    /* flex-direction: column; */
 }
 
-.icons{
-    background: #232323;
-    /* border-radius: 59%; */
-    color: blue;
+.header{
+    width: 100%;
+    /* height: 4rem; */
+    display: flex;
+    justify-content:space-between;
+    color:var(--primari-text);
+    padding: 1rem;
+    background: var(--primary-bg);
+    position: fixed;
+}
+
+.logo-wrapper{
+    display: flex;
+    width: 30%;
+    padding: var( --padding-size-s);
+}
+
+.logo{
+   width: 3rem;
+   height: 3rem;
+  
+}
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.nav__link{
+    display: flex;
+    justify-content: space-around;
+}
+
+.banner{
+    background-image: url(../public/images/banner2.webp);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    position: sticky;
+    padding: 30px;
+   
+}
+
+.main{
+    /* width: 100%; */
+    height: 100vh;
+    background: gray;
+}
+
+.footer{
+    width: 100%;
+    height: 2rem;
+    background: var(--primary-bg);
+}
+
+.container{
+    height: 100vh;
+    background: var(--secondari-bg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding: var(--padding-size-s); */
+}
+
+.splash{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: var(--primary-bg);
+    width: 375px;
+    height: 812px;
+}
+
+.img-wrapper{
+    margin-top: 103px;
+    margin-left: 47px;
+    margin-right: 46px;
+    width: 282px;
+    height: 355px;
+}
+
+.img__splash{
+    width: 282px;
+    height: 355px;
+}
+
+.vector-wrapper{
+    margin-top: 24px;
+}
+
+.title-wrapper{
+    margin-top: 23px;
+    margin-left: 68px;
+}
+
+.title{
+    color:var(--primari-text) ;
+    font-family: var(--primary-font-family);
+    font-size: var( --fs-xl);
+}
+
+.text-wrapper{
+    margin-top: 10px;
+    margin-left: 64px;
+    margin-right: 63px;
+    display: flex;
+    justify-content: center;
 }
 
 .text{
-    color: aliceblue;
-    font-family: var(--primary-ff);
+    color: var(--secondary-text);
+    font-family: var(--third-font-family);
+    font-size: var( --fs-s);
 }
-.text1{
-    color: aliceblue;
-    font-family: var(--secondary-ff);
+
+.vector-right-wrapper{
+    margin-top: 21px;
+    width: 68px;
+    height: 68px;
+    background: var(--primary-button-bg);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.text2{
-    color: white;
-    font-family: var( --third-ff);
-}
+
+
+
+
+
     
