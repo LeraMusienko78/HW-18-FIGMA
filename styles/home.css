@@ -230,4 +230,9 @@ li {
     height: 20px;
 }
 
+.name__button{
+    font-size: var(--fs-xs);
+    font-family: var(--secondary-font-family);
+}
+
 
