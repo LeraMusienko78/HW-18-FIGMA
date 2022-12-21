@@ -28,7 +28,6 @@ li {
 .home{
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
     background: var(--primary-bg);
     width: 375px;
     height: 832px; 
@@ -68,6 +67,11 @@ li {
     color: var(--input-text);
     font-size: var(--fs-m);
     font-family: var(--third-font-family);
+    padding: var(--padding-size-m);
+}
+
+.input:hover{
+    background: var(--secondari-button-bg);
 }
 
 .menu{
@@ -75,27 +79,27 @@ li {
     justify-content: space-around;
 }
 
-.button-wrapper{
-   
-    width: 57px;
-    height: 57px;
+.button{
+    width: 58px;
+    height: 58px;
     background: var(--primary-button-bg);
     border-radius: 50%;
+    border: none;
     margin-top: 29px;
-    margin-left: 24px;
-   
+}
+
+.button:hover{
+    background: var(--secondari-button-bg);
 }
 
 .img-wrapper{
     display: flex;
     justify-content: center;
-   
 }
 
 .img{
     width:25px ;
     height: 30px;
-
 }
 
 .title__menu{
